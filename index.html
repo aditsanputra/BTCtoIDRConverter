@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
@@ -8,24 +9,25 @@
 
 <body>
 
-<div class="flex-container">
-  <h1>Convert BTC to IDR</h1>
-  <div>
-  		<span>BTC</span>
+    <div class="flex-container">
+        <h1>Convert BTC to IDR</h1>
         <div>
-        	<input type="numeric" id="btc" value="0" style="width:20px">
+            <span>BTC</span>
+            <div>
+                <input type="numeric" id="btc" value="0" style="width:20px">
+            </div>
         </div>
-  </div>
-  <div>
-  	<input type="button" value="Convert" onclick="calculateBTCinIDR()">
-  </div>
-  <div>
-  		<span>IDR</span>
         <div>
-        	<span id="id01" style="font-size:16px"></span>
+            <input type="button" value="Convert" onclick="calculateBTCinIDR()">
         </div>
-  </div>  
-</div>
+        <div>
+            <span>IDR</span>
+            <div>
+                <span id="id01" style="font-size:16px"></span>
+            </div>
+        </div>
+    </div>
 
 </body>
+
 </html>

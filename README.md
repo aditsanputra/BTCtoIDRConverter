@@ -1,5 +1,5 @@
 # BTCtoIDRConverter
-This is a simple project to convert Bitcoin to Indonesian Rupiah
+This is a simple project to calculate Bitcoin price in Indonesian Rupiah
 
 API used on this project:
 1. Get current bitcoin price in EUR
